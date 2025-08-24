@@ -1,0 +1,170 @@
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Runtime files
+backend/runtime/
+backend/web/assets/
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.dockerignore
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache
+.cache/
+cache/
+*.cache
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Composer
+composer.phar
+composer.lock
+
+# Yii2 specific
+backend/runtime/
+backend/web/assets/
+backend/web/uploads/
+backend/config/db.php
+
+# Django specific
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ML Models and large files
+*.pkl
+*.model
+*.h5
+*.hdf5
+*.joblib
+model/
+models/*.pkl
+models/*.model
+
+# Dataset files
+*.csv
+*.json
+*.txt
+dataset/
+datasets/
+
+# Firefox profiles (for web scraping)
+firefox_profile/
+env/
+
+# Large files that should be tracked with Git LFS
+*.zip
+*.tar.gz
+*.rar
+*.7z
