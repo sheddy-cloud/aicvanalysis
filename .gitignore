@@ -17,7 +17,6 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -72,9 +71,6 @@ db.sqlite3
 .env.test.local
 .env.production.local
 
-# Docker
-.dockerignore
-
 # Temporary files
 *.tmp
 *.temp
@@ -91,7 +87,6 @@ htmlcov/
 .tox/
 .coverage
 .coverage.*
-.cache
 nosetests.xml
 coverage.xml
 *.cover
@@ -142,7 +137,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# ML Models and large files
+# ML Models and large files (but allow important ones)
 *.pkl
 *.model
 *.h5
@@ -152,16 +147,14 @@ model/
 models/*.pkl
 models/*.model
 
-# Dataset files
+# Dataset files (but allow important ones)
 *.csv
 *.json
-*.txt
 dataset/
 datasets/
 
 # Firefox profiles (for web scraping)
 firefox_profile/
-env/
 
 # Large files that should be tracked with Git LFS
 *.zip
